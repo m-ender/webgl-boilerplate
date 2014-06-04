@@ -131,7 +131,7 @@ function renderInstructions()
 function renderMenu()
 {
     // Add your menu's HTML here.
-    optionsBox.html('Add your menu here');
+    optionsBox.html('Add <a>your menu</a> here');
 
     // Then set up some 'change' or 'click' or 'blur' handlers with
     // jQuery here.

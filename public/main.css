@@ -1,8 +1,11 @@
+/* Color scheme found on Adobe Kuler:
+   https://kuler.adobe.com/Branding-Colors-color-theme-3861663 */
+
 body {
     margin: 0;
     padding: 0;
     overflow:hidden;
-    background: rgb(148, 141, 117);
+    background: #4C5D75;
 
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -23,13 +26,14 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 36pt;
+    color: #BED4DF;
 }
 
 #gl-canvas {
     position: absolute;
     left: 400px;
     top: 100px;
-    background: blue;
+    background: #323E4E;
     width: 1024;
     height: 1024;
     display: block;
@@ -37,8 +41,8 @@ body {
 
 #menu{
     padding: 5px;
-    background: rgb(48, 41, 17);
-    color: white;
+    background: #2D3032;
+    color: #BED4DF;
     position: absolute;
     left: 100px;
     top: 100px;
@@ -49,17 +53,17 @@ body {
 }
 
 #menu .active, #menu .active:hover {
-    color: green;
+    color: #78A3B9;
 }
 
 #menu a:hover {
-    color: gray;
+    color: #78A3B9;
 }
 
 #debug{
     padding: 5px;
-    background: rgb(48, 41, 17);
-    color: white;
+    background: #2D3032;
+    color: #BED4DF;
     position: absolute;
     left: 1424px;
     top: 100px;
@@ -90,11 +94,11 @@ body {
     left: 410px;
     top: 105px;
     width: 1024;
-    font-size: 14pt;
+    font-size: 20pt;
     font-weight: bold;
     font-family: Consolas;
     text-align: left;
-    color: black;
+    color: #2D3032;
 }
 
 #data-right-div {
@@ -102,9 +106,9 @@ body {
     left: 400px;
     top: 105px;
     width: 1014px;
-    font-size: 14pt;
+    font-size: 20pt;
     font-weight: bold;
     font-family: Consolas;
     text-align: right;
-    color: black;
+    color: #2D3032;
 }
