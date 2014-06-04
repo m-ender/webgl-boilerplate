@@ -28,4 +28,6 @@ Here is a quick breakdown of the JavaScript files (found in `public/`):
 - A bunch of classes to render some geometry primitives, namely `Line`, `Circle`, `ConvexPolygon`. Their constructors should be sufficient documentation. `ConvexPolygon` also comes with a convenience method `ConvexPolygon.CreateArrow` to create simple arrows for debug output (or maybe your application needs arrows, too, what do I know).
 - The `main.js` which contains all the setup code for WebGL, the render loop and input handling.
 
+The canvas has a size and resolution of 1024x1024 pixels. If that doesn't fit in your browser window try full-screen or zooming out. Alternatively, you'll have to change some CSS, as well as the `resolution` global in `Configuration.js`.
+
 Have fun!
